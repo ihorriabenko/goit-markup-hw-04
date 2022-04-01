@@ -513,6 +513,10 @@ footer {
   display: flex;
 }
 
+.foot-second-item {
+  margin-right: 10px;
+}
+
 .foot-second-link {
   display: flex;
   align-items: center;
@@ -522,7 +526,6 @@ footer {
   border-radius: 50%;
   transition: 0.4s;
   background-color: rgba(255, 255, 255, 0.1);
-  margin-right: 10px;
 }
 
 .foot-second-link:hover,
