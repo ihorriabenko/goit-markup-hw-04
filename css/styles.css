@@ -116,6 +116,23 @@ body {
   color: var(--hover);
 }
 
+.icon-hat {
+  width: 16px;
+  height: 12px;
+  fill: #e5e5e5;
+  margin-right: 10px;
+}
+
+.icon-hat.tel {
+  width: 10px;
+  height: 16px;
+}
+
+.hat-address-link:hover .icon-hat,
+.hat-address-link:focus .icon-hat {
+  fill: var(--hover);
+}
+
 /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */ /* INDEX */
 
 /* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */ /* SECTION 1 */
@@ -284,7 +301,6 @@ body {
   justify-content: center;
   width: 44px;
   height: 44px;
-  text-align: center;
   border-radius: 50%;
   transition: 0.4s;
 }
@@ -296,11 +312,13 @@ body {
   transition: 0.4s;
 }
 
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   background-color: #2196f3;
 }
 
-.socials-link:hover .socials-img {
+.socials-link:hover .socials-img,
+.socials-link:focus .socials-img {
   fill: #fff;
 }
 
