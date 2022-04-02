@@ -4,6 +4,7 @@
   --connection: #757575;
   --hover: #2196f3;
   --buttonsback: #f5f4fa;
+  --icons: #afb1b8;
 }
 
 body {
@@ -346,6 +347,55 @@ body {
 .socials-link:hover .socials-img,
 .socials-link:focus .socials-img {
   fill: #fff;
+}
+
+/* REGULAR CUSTOMERS */ /* REGULAR CUSTOMERS */ /* REGULAR CUSTOMERS */ /* REGULAR CUSTOMERS */ /* REGULAR CUSTOMERS */
+
+.regularCustomers-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 50px;
+}
+
+.regularCustomers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.regularCustomers-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regularCustomers-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regularCustomers-img {
+  width: 106px;
+  height: 60px;
+
+  fill: var(--icons);
+}
+
+.regularCustomers-link:hover .regularCustomers-img,
+.regularCustomers-link:focus .regularCustomers-img {
+  fill: var(--hover);
+}
+
+.regularCustomers-link:hover .regularCustomers-item {
+  border: 1px solid var(--hover);
 }
 
 /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
