@@ -273,7 +273,7 @@ footer {
   padding-bottom: 200px;
 
   background-color: #2f303a;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/headbk.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/headbk.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
