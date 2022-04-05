@@ -125,14 +125,9 @@ body {
 
 .icon-hat {
   width: 16px;
-  height: 12px;
-  fill: #e5e5e5;
-  margin-right: 10px;
-}
-
-.icon-hat.tel {
-  width: 10px;
   height: 16px;
+  fill: #757575;
+  margin-right: 10px;
 }
 
 .hat-address-link:hover .icon-hat,
@@ -302,6 +297,7 @@ footer {
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
 
   font-family: inherit;
   font-weight: bold;
@@ -582,6 +578,7 @@ width: 130px;
 .buttons-button {
   background: var(--buttonsback);
   border-radius: 4px;
+  border: 0;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   
@@ -632,10 +629,13 @@ width: 130px;
 
 .projects-header {
   color: var(--main);
+
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-bottom: 4px;
 }
 
 .projects-text {
