@@ -113,6 +113,9 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+
+  display: flex;
+  align-items: center;
 }
 
 .hat-address-list .hat-address-link:hover,
